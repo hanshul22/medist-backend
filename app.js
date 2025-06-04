@@ -3,15 +3,15 @@ const ejs = require('ejs');
 const errorHandler = require('./Controller/errorController')
 const cors = require('cors');
 const path = require('path');
-const authRouter = require('../ecommerce-backend/ecommerce-backend/Router/authRoutes');
-const appPolicyRouter = require('../ecommerce-backend/ecommerce-backend/Router/appPolicyRoutes');
-const contactRouter = require('../ecommerce-backend/ecommerce-backend/Router/contactRoutes');
-const adminRouter = require('../ecommerce-backend/ecommerce-backend/Router/adminRoutes');
-const notificationRouter = require('../ecommerce-backend/ecommerce-backend/Router/notificationRoutes');
-const userRouter = require('../ecommerce-backend/ecommerce-backend/Router/userRoutes');
-const offerBannerRouter = require('../ecommerce-backend/ecommerce-backend/Router/offerBannerRoutes');
-const BlogRouter = require('../ecommerce-backend/ecommerce-backend/Router/blogRoutes');
-const ServiceRouter = require('../ecommerce-backend/ecommerce-backend/Router/serviceRoutes');
+const authRouter = require('./Router/authRoutes');
+const appPolicyRouter = require('./Router/appPolicyRoutes');
+const contactRouter = require('./Router/contactRoutes');
+const adminRouter = require('./Router/adminRoutes');
+const notificationRouter = require('./Router/notificationRoutes');
+const userRouter = require('./Router/userRoutes');
+const offerBannerRouter = require('./Router/offerBannerRoutes');
+const BlogRouter = require('./Router/blogRoutes');
+const ServiceRouter = require('./Router/serviceRoutes');
 
 
  
